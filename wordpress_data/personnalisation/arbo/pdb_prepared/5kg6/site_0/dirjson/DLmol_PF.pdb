@@ -1,0 +1,18 @@
+COMPND    MOL_ID: PFNWEFQPUMIDSN-WNJXEPBRSA-N;
+HETATM    1  C1  UNL     1      47.963   5.894   3.758  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.331   4.476   3.261  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.759   4.470   2.641  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.804   4.969   3.631  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.441   6.359   4.144  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.033   6.409   4.741  1.00  0.00           C  
+HETATM    7  C7  UNL     1      46.587   5.963   4.430  1.00  0.00           C  
+HETATM    8  O1  UNL     1      50.086   3.126   2.252  1.00  0.00           O  
+HETATM    9  O2  UNL     1      48.296   3.571   4.348  1.00  0.00           O  
+HETATM   10  N1  UNL     1      47.402   3.935   2.282  1.00  0.00           N  
+HETATM   11  O3  UNL     1      51.385   6.772   5.125  1.00  0.00           O  
+CONECT    1    2    6    7
+CONECT    2    3    9   10
+CONECT    3    4    8
+CONECT    4    5
+CONECT    5    6   11
+END

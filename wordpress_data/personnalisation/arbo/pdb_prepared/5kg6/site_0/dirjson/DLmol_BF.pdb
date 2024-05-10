@@ -1,0 +1,36 @@
+COMPND    MOL_ID: BFMDJCLYLZMKNV-PZGQECOJSA-N;
+HETATM    1  N1  UNL     1      51.768   3.948   5.204  1.00  0.00           N  
+HETATM    2  C1  UNL     1      51.459   2.625   4.641  1.00  0.00           C  
+HETATM    3  C2  UNL     1      52.749   1.791   4.655  1.00  0.00           C  
+HETATM    4  C3  UNL     1      53.546   2.410   5.812  1.00  0.00           C  
+HETATM    5  N2  UNL     1      54.971   2.138   5.766  1.00  0.00           N  
+HETATM    6  C4  UNL     1      53.192   3.930   5.606  1.00  0.00           C  
+HETATM    7  O1  UNL     1      54.042   4.490   4.593  1.00  0.00           O  
+HETATM    8  C5  UNL     1      52.550   0.280   4.701  1.00  0.00           C  
+HETATM    9  O2  UNL     1      50.454   2.054   5.459  1.00  0.00           O  
+HETATM   10  N3  UNL     1      51.500   5.010   4.235  1.00  0.00           N  
+HETATM   11  N4  UNL     1      53.208   1.880   7.117  1.00  0.00           N  
+CONECT    1    2    6   10
+CONECT    2    3    9
+CONECT    3    4    8
+CONECT    4    5    6   11
+CONECT    6    7
+END
+COMPND    MOL_ID: BFMDJCLYLZMKNV-YVZJFKFKSA-N;
+HETATM    1  N1  UNL     1      51.916   3.500   5.431  1.00  0.00           N  
+HETATM    2  C1  UNL     1      51.946   2.031   5.620  1.00  0.00           C  
+HETATM    3  C2  UNL     1      53.408   1.600   5.569  1.00  0.00           C  
+HETATM    4  C3  UNL     1      54.106   2.761   6.284  1.00  0.00           C  
+HETATM    5  N2  UNL     1      55.534   2.828   6.034  1.00  0.00           N  
+HETATM    6  C4  UNL     1      53.295   3.988   5.709  1.00  0.00           C  
+HETATM    7  O1  UNL     1      53.945   4.475   4.523  1.00  0.00           O  
+HETATM    8  C5  UNL     1      53.651   0.205   6.133  1.00  0.00           C  
+HETATM    9  O2  UNL     1      51.187   1.375   4.626  1.00  0.00           O  
+HETATM   10  N3  UNL     1      54.096   2.674   7.729  1.00  0.00           N  
+HETATM   11  N4  UNL     1      51.505   3.857   4.051  1.00  0.00           N  
+CONECT    1    2    6   11
+CONECT    2    3    9
+CONECT    3    4    8
+CONECT    4    5    6   10
+CONECT    6    7
+END

@@ -1,0 +1,61 @@
+COMPND    MOL_ID: JEEMRJFOQGKTJR-UHFFFAOYSA-N;
+HETATM    1  C1  UNL     1      53.628   2.298   6.358  1.00  0.00           C  
+HETATM    2  C2  UNL     1      53.326   1.018   5.859  1.00  0.00           C  
+HETATM    3  O1  UNL     1      53.887  -0.099   6.431  1.00  0.00           O  
+HETATM    4  C3  UNL     1      52.461   0.842   4.777  1.00  0.00           C  
+HETATM    5  C4  UNL     1      51.903   1.953   4.147  1.00  0.00           C  
+HETATM    6  C5  UNL     1      52.217   3.248   4.572  1.00  0.00           C  
+HETATM    7  C6  UNL     1      53.029   3.404   5.723  1.00  0.00           C  
+HETATM    8  O2  UNL     1      55.539   3.199   7.522  1.00  0.00           O  
+HETATM    9  C7  UNL     1      54.538   2.502   7.535  1.00  0.00           C  
+HETATM   10  O3  UNL     1      54.172   1.842   8.658  1.00  0.00           O  
+HETATM   11  N1  UNL     1      51.644   4.408   3.972  1.00  0.00           N  
+HETATM   12  N2  UNL     1      50.286   4.299   3.671  1.00  0.00           N  
+HETATM   13  N3  UNL     1      49.973   3.398   2.695  1.00  0.00           N  
+HETATM   14  C8  UNL     1      48.749   3.413   2.303  1.00  0.00           C  
+HETATM   15  C9  UNL     1      47.672   4.306   2.770  1.00  0.00           C  
+HETATM   16  C10 UNL     1      48.024   5.217   3.679  1.00  0.00           C  
+HETATM   17  C11 UNL     1      49.424   5.286   4.168  1.00  0.00           C  
+HETATM   18  O4  UNL     1      49.707   6.169   4.976  1.00  0.00           O  
+HETATM   19  O5  UNL     1      48.319   2.556   1.357  1.00  0.00           O  
+HETATM   20  O6  UNL     1      46.404   4.166   2.243  1.00  0.00           O  
+HETATM   21  O7  UNL     1      53.288   4.698   6.123  1.00  0.00           O  
+HETATM   22  C12 UNL     1      52.341   5.113   7.114  1.00  0.00           C  
+CONECT    1    2    2    7    9
+CONECT    2    3    4
+CONECT    4    5    5
+CONECT    5    6
+CONECT    6    7    7   11
+CONECT    7   21
+CONECT    8    9    9
+CONECT    9   10
+CONECT   11   12
+CONECT   12   13   17
+CONECT   13   14   14
+CONECT   14   15   19
+CONECT   15   16   16   20
+CONECT   16   17
+CONECT   17   18   18
+CONECT   21   22
+END
+COMPND    MOL_ID: JELODBPOEDSLDA-SPJNRGJMSA-N;
+HETATM    1  C1  UNL     1      48.016   5.925   3.711  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.347   4.536   3.142  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.764   4.473   2.567  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.843   4.909   3.580  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.491   6.287   4.177  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.072   6.345   4.747  1.00  0.00           C  
+HETATM    7  N1  UNL     1      51.036   3.849   4.604  1.00  0.00           N  
+HETATM    8  O1  UNL     1      50.025   3.128   2.153  1.00  0.00           O  
+HETATM    9  O2  UNL     1      51.427   6.637   5.200  1.00  0.00           O  
+HETATM   10  C7  UNL     1      46.613   5.979   4.350  1.00  0.00           C  
+HETATM   11  C8  UNL     1      45.500   5.743   3.368  1.00  0.00           C  
+HETATM   12  C9  UNL     1      44.348   6.426   3.365  1.00  0.00           C  
+CONECT    1    2    6   10
+CONECT    2    3
+CONECT    3    4    8
+CONECT    4    5    7
+CONECT    5    6    9
+CONECT   10   11
+CONECT   11   12   12
+END

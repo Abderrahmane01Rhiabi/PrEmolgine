@@ -1,0 +1,32 @@
+COMPND    MOL_ID: QMQJIOLDSDBXNP-YGOYTEALSA-N;
+HETATM    1  C1  UNL     1      48.151   5.574   3.549  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.127   4.036   3.332  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.485   3.536   2.805  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.695   3.968   3.658  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.667   5.488   3.874  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.340   5.999   4.430  1.00  0.00           C  
+HETATM    7  C7  UNL     1      46.849   6.129   4.142  1.00  0.00           C  
+HETATM    8  O1  UNL     1      47.805   3.334   4.513  1.00  0.00           O  
+HETATM    9  N1  UNL     1      47.118   3.648   2.368  1.00  0.00           N  
+HETATM   10  C8  UNL     1      50.795   3.155   4.968  1.00  0.00           C  
+HETATM   11  O2  UNL     1      55.931   2.711   6.802  1.00  0.00           O  
+HETATM   12  C9  UNL     1      54.777   2.811   6.402  1.00  0.00           C  
+HETATM   13  N2  UNL     1      53.937   3.812   6.791  1.00  0.00           N  
+HETATM   14  C10 UNL     1      52.645   3.992   6.369  1.00  0.00           C  
+HETATM   15  O3  UNL     1      51.989   4.947   6.780  1.00  0.00           O  
+HETATM   16  N3  UNL     1      52.170   3.042   5.469  1.00  0.00           N  
+HETATM   17  C11 UNL     1      52.958   1.993   5.038  1.00  0.00           C  
+HETATM   18  C12 UNL     1      54.216   1.836   5.454  1.00  0.00           C  
+CONECT    1    2    6    7
+CONECT    2    3    8    9
+CONECT    3    4
+CONECT    4    5   10
+CONECT    5    6
+CONECT   10   16
+CONECT   11   12   12
+CONECT   12   13   18
+CONECT   13   14
+CONECT   14   15   15   16
+CONECT   16   17
+CONECT   17   18   18
+END

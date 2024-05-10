@@ -1,0 +1,21 @@
+COMPND    MOL_ID: MGDCFANLKDAKOW-OSMVPFSASA-N;
+HETATM    1  C1  UNL     1      48.714   5.901   3.865  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.341   4.449   3.454  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.538   3.782   2.739  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.805   3.804   3.587  1.00  0.00           C  
+HETATM    5  C5  UNL     1      51.162   5.227   4.030  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.989   5.912   4.728  1.00  0.00           C  
+HETATM    7  O1  UNL     1      50.603   2.982   4.742  1.00  0.00           O  
+HETATM    8  C7  UNL     1      47.596   6.623   4.621  1.00  0.00           C  
+HETATM    9  O2  UNL     1      52.267   5.147   4.938  1.00  0.00           O  
+HETATM   10  C8  UNL     1      47.117   4.372   2.531  1.00  0.00           C  
+HETATM   11  O3  UNL     1      44.856   4.530   3.605  1.00  0.00           O  
+HETATM   12  N1  UNL     1      46.013   3.762   3.277  1.00  0.00           N1+
+CONECT    1    2    6    8
+CONECT    2    3   10
+CONECT    3    4
+CONECT    4    5    7
+CONECT    5    6    9
+CONECT   10   12
+CONECT   11   12   12
+END

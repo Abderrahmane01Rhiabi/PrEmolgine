@@ -1,0 +1,29 @@
+COMPND    MOL_ID: IRHPYDBTYWCIJE-BRDIYROLSA-N;
+HETATM    1  N1  UNL     1      51.456   5.371   5.490  1.00  0.00           N  
+HETATM    2  O1  UNL     1      55.270   2.479   5.765  1.00  0.00           O  
+HETATM    3  C1  UNL     1      54.002   2.743   5.350  1.00  0.00           C  
+HETATM    4  C2  UNL     1      53.399   3.938   5.668  1.00  0.00           C  
+HETATM    5  C3  UNL     1      52.103   4.149   5.217  1.00  0.00           C  
+HETATM    6  C4  UNL     1      51.527   3.129   4.462  1.00  0.00           C  
+HETATM    7  N2  UNL     1      52.157   1.965   4.172  1.00  0.00           N  
+HETATM    8  N3  UNL     1      53.418   1.770   4.626  1.00  0.00           N  
+HETATM    9  C5  UNL     1      48.910   4.902   3.063  1.00  0.00           C  
+HETATM   10  C6  UNL     1      50.422   5.028   3.207  1.00  0.00           C  
+HETATM   11  C7  UNL     1      50.626   5.926   4.422  1.00  0.00           C  
+HETATM   12  O2  UNL     1      49.344   6.303   4.922  1.00  0.00           O  
+HETATM   13  C8  UNL     1      48.407   6.113   3.851  1.00  0.00           C  
+HETATM   14  C9  UNL     1      47.002   6.023   4.416  1.00  0.00           C  
+HETATM   15  C10 UNL     1      48.405   3.551   3.563  1.00  0.00           C  
+CONECT    1    5   11
+CONECT    2    3
+CONECT    3    4    4    8
+CONECT    4    5
+CONECT    5    6    6
+CONECT    6    7
+CONECT    7    8    8
+CONECT    9   10   13   15
+CONECT   10   11
+CONECT   11   12
+CONECT   12   13
+CONECT   13   14
+END

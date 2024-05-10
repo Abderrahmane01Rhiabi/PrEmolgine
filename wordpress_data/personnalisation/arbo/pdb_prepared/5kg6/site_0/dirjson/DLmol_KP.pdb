@@ -1,0 +1,20 @@
+COMPND    MOL_ID: KPICAQGIFLREJJ-UHFFFAOYSA-N;
+HETATM    1  C1  UNL     1      47.678   5.878   3.951  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.001   5.035   2.865  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.352   4.825   2.532  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.371   5.426   3.269  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.045   6.242   4.341  1.00  0.00           C  
+HETATM    6  F1  UNL     1      51.022   6.819   5.054  1.00  0.00           F  
+HETATM    7  C6  UNL     1      48.718   6.471   4.687  1.00  0.00           C  
+HETATM    8  C7  UNL     1      46.938   4.371   2.031  1.00  0.00           C  
+HETATM    9  C8  UNL     1      46.251   6.149   4.376  1.00  0.00           C  
+HETATM   10  C9  UNL     1      45.692   5.017   5.241  1.00  0.00           C  
+HETATM   11  C10 UNL     1      44.182   4.909   5.103  1.00  0.00           C  
+CONECT    1    2    2    7    9
+CONECT    2    3    8
+CONECT    3    4    4
+CONECT    4    5
+CONECT    5    6    7    7
+CONECT    9   10
+CONECT   10   11
+END

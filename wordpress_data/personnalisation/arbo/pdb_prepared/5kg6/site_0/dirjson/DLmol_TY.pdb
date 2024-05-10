@@ -1,0 +1,27 @@
+COMPND    MOL_ID: TYEMHNKTDBMPCI-UFGOTCBOSA-N;
+HETATM    1  C1  UNL     1      47.859   5.498   3.435  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.370   4.154   2.886  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.787   4.276   2.322  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.782   4.868   3.332  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.250   6.208   3.873  1.00  0.00           C  
+HETATM    6  C6  UNL     1      48.839   6.097   4.456  1.00  0.00           C  
+HETATM    7  O1  UNL     1      51.137   6.753   4.844  1.00  0.00           O  
+HETATM    8  C7  UNL     1      51.121   3.857   4.435  1.00  0.00           C  
+HETATM    9  C8  UNL     1      46.457   5.379   4.006  1.00  0.00           C  
+HETATM   10  C9  UNL     1      46.189   4.628   5.163  1.00  0.00           C  
+HETATM   11  C10 UNL     1      44.890   4.533   5.673  1.00  0.00           C  
+HETATM   12  C11 UNL     1      43.841   5.187   5.031  1.00  0.00           C  
+HETATM   13  C12 UNL     1      44.100   5.930   3.888  1.00  0.00           C  
+HETATM   14  F1  UNL     1      43.092   6.560   3.269  1.00  0.00           F  
+HETATM   15  C13 UNL     1      45.389   6.032   3.372  1.00  0.00           C  
+CONECT    1    2    6    9
+CONECT    2    3
+CONECT    3    4
+CONECT    4    5    8
+CONECT    5    6    7
+CONECT    9   10   10   15
+CONECT   10   11
+CONECT   11   12   12
+CONECT   12   13
+CONECT   13   14   15   15
+END

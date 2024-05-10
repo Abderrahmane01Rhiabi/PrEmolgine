@@ -1,0 +1,19 @@
+COMPND    MOL_ID: CYFDCPPIRIEFLD-VGRMVHKJSA-N;
+HETATM    1  C1  UNL     1      47.947   5.857   3.680  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.245   4.515   2.999  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.657   4.472   2.387  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.767   4.821   3.421  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.423   6.196   4.044  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.038   6.223   4.691  1.00  0.00           C  
+HETATM    7  C7  UNL     1      46.575   5.830   4.353  1.00  0.00           C  
+HETATM    8  O1  UNL     1      51.405   6.623   4.982  1.00  0.00           O  
+HETATM    9  N1  UNL     1      49.860   3.178   1.721  1.00  0.00           N  
+HETATM   10  C8  UNL     1      51.007   3.731   4.493  1.00  0.00           C  
+HETATM   11  N2  UNL     1      51.684   2.556   3.948  1.00  0.00           N  
+CONECT    1    2    6    7
+CONECT    2    3
+CONECT    3    4    9
+CONECT    4    5   10
+CONECT    5    6    8
+CONECT   10   11
+END

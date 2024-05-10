@@ -1,0 +1,20 @@
+COMPND    MOL_ID: KLIPUNKCUPNMHM-MRVPVSSYSA-N;
+HETATM    1  C1  UNL     1      47.833   5.787   3.988  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.232   5.026   2.878  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.580   4.938   2.512  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.551   5.605   3.253  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.167   6.352   4.359  1.00  0.00           C  
+HETATM    6  F1  UNL     1      51.099   6.990   5.080  1.00  0.00           F  
+HETATM    7  C6  UNL     1      48.830   6.445   4.731  1.00  0.00           C  
+HETATM    8  C7  UNL     1      46.393   5.915   4.446  1.00  0.00           C  
+HETATM    9  O1  UNL     1      46.235   5.174   5.664  1.00  0.00           O  
+HETATM   10  C8  UNL     1      45.279   5.478   3.459  1.00  0.00           C  
+HETATM   11  N1  UNL     1      44.829   4.087   3.650  1.00  0.00           N  
+CONECT    1    2    2    7    8
+CONECT    2    3
+CONECT    3    4    4
+CONECT    4    5
+CONECT    5    6    7    7
+CONECT    8    9   10
+CONECT   10   11
+END

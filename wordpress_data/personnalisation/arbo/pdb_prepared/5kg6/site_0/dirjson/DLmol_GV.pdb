@@ -1,0 +1,37 @@
+COMPND    MOL_ID: GVMSCKDTKBWDIF-RXMQYKEDSA-N;
+HETATM    1  C1  UNL     1      47.550   5.372   4.261  1.00  0.00           C  
+HETATM    2  C2  UNL     1      47.719   4.165   3.563  1.00  0.00           C  
+HETATM    3  C3  UNL     1      48.947   3.812   2.998  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.034   4.676   3.123  1.00  0.00           C  
+HETATM    5  C5  UNL     1      49.880   5.875   3.807  1.00  0.00           C  
+HETATM    6  F1  UNL     1      50.924   6.705   3.924  1.00  0.00           F  
+HETATM    7  C6  UNL     1      48.658   6.229   4.371  1.00  0.00           C  
+HETATM    8  O1  UNL     1      46.650   3.317   3.451  1.00  0.00           O  
+HETATM    9  C7  UNL     1      46.226   5.802   4.861  1.00  0.00           C  
+HETATM   10  C8  UNL     1      45.170   6.038   3.787  1.00  0.00           C  
+HETATM   11  O2  UNL     1      45.729   4.841   5.790  1.00  0.00           O  
+CONECT    1    2    2    7    9
+CONECT    2    3    8
+CONECT    3    4    4
+CONECT    4    5
+CONECT    5    6    7    7
+CONECT    9   10   11
+END
+COMPND    MOL_ID: GVVKYLZQTBWUBX-GJMOJQLCSA-N;
+HETATM    1  C1  UNL     1      48.088   5.909   3.805  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.370   4.513   3.221  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.720   4.460   2.505  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.862   4.905   3.414  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.596   6.285   4.002  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.251   6.334   4.724  1.00  0.00           C  
+HETATM    7  O1  UNL     1      49.969   3.135   2.046  1.00  0.00           O  
+HETATM    8  C7  UNL     1      46.739   5.990   4.554  1.00  0.00           C  
+HETATM    9  C8  UNL     1      45.535   5.830   3.633  1.00  0.00           C  
+HETATM   10  O2  UNL     1      46.651   4.983   5.559  1.00  0.00           O  
+CONECT    1    2    6    8
+CONECT    2    3
+CONECT    3    4    7
+CONECT    4    5
+CONECT    5    6
+CONECT    8    9   10
+END

@@ -1,0 +1,21 @@
+COMPND    MOL_ID: PCFMYZMCOVURNT-UHFFFAOYSA-N;
+HETATM    1  N1  UNL     1      68.786  81.638  23.072  1.00  0.00           N  
+HETATM    2  N2  UNL     1      68.613  82.590  22.117  1.00  0.00           N  
+HETATM    3  C1  UNL     1      69.611  83.401  21.882  1.00  0.00           C  
+HETATM    4  C2  UNL     1      70.927  83.355  22.642  1.00  0.00           C  
+HETATM    5  C3  UNL     1      71.014  82.399  23.575  1.00  0.00           C  
+HETATM    6  C4  UNL     1      69.915  81.453  23.816  1.00  0.00           C  
+HETATM    7  O1  UNL     1      70.032  80.567  24.655  1.00  0.00           O  
+HETATM    8  N3  UNL     1      69.407  84.351  20.915  1.00  0.00           N  
+HETATM    9  N4  UNL     1      71.920  84.311  22.423  1.00  0.00           N  
+HETATM   10  N5  UNL     1      71.953  85.074  21.271  1.00  0.00           N  
+HETATM   11  N6  UNL     1      71.802  86.436  21.608  1.00  0.00           N  
+CONECT    1    2    6
+CONECT    2    3    3
+CONECT    3    4    8
+CONECT    4    5    5    9
+CONECT    5    6
+CONECT    6    7    7
+CONECT    9   10
+CONECT   10   11
+END

@@ -1,0 +1,22 @@
+COMPND    MOL_ID: MLQVCWBDUNRVHE-OSMVPFSASA-N;
+HETATM    1  C1  UNL     1      48.027   4.648   2.952  1.00  0.00           C  
+HETATM    2  C2  UNL     1      49.514   4.246   2.817  1.00  0.00           C  
+HETATM    3  C3  UNL     1      50.434   5.400   3.194  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.051   6.004   4.540  1.00  0.00           C  
+HETATM    5  N1  UNL     1      48.684   6.477   4.537  1.00  0.00           N  
+HETATM    6  C5  UNL     1      47.735   5.369   4.295  1.00  0.00           C  
+HETATM    7  O1  UNL     1      50.860   7.134   4.773  1.00  0.00           O  
+HETATM    8  O2  UNL     1      47.252   3.448   2.829  1.00  0.00           O  
+HETATM    9  C6  UNL     1      46.317   5.981   4.357  1.00  0.00           C  
+HETATM   10  C7  UNL     1      45.308   5.183   5.171  1.00  0.00           C  
+HETATM   11  C8  UNL     1      50.991   2.931   4.052  1.00  0.00           C  
+HETATM   12  N2  UNL     1      49.762   3.075   3.701  1.00  0.00           N  
+CONECT    1    2    6    8
+CONECT    2    3   12
+CONECT    3    4
+CONECT    4    5    7
+CONECT    5    6
+CONECT    6    9
+CONECT    9   10
+CONECT   11   12   12
+END

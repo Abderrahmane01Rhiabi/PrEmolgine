@@ -1,0 +1,25 @@
+COMPND    MOL_ID: MDSCYCNXTMKHJP-MJRITDHESA-N;
+HETATM    1  C1  UNL     1      50.034   5.177   2.720  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.696   5.291   2.766  1.00  0.00           C  
+HETATM    3  C3  UNL     1      47.074   4.726   4.706  1.00  0.00           C  
+HETATM    4  C4  UNL     1      47.880   5.727   3.907  1.00  0.00           C  
+HETATM    5  C5  UNL     1      46.368   5.730   3.834  1.00  0.00           C  
+HETATM    6  C6  UNL     1      47.053   3.266   4.400  1.00  0.00           C  
+HETATM    7  N1  UNL     1      45.652   5.294   2.632  1.00  0.00           N  
+HETATM    8  C7  UNL     1      50.993   5.461   3.845  1.00  0.00           C  
+HETATM    9  C8  UNL     1      51.703   4.269   4.388  1.00  0.00           C  
+HETATM   10  O1  UNL     1      53.000   4.463   4.772  1.00  0.00           O  
+HETATM   11  C9  UNL     1      53.457   3.275   5.242  1.00  0.00           C  
+HETATM   12  C10 UNL     1      52.473   2.317   5.171  1.00  0.00           C  
+HETATM   13  C11 UNL     1      51.337   2.957   4.621  1.00  0.00           C  
+CONECT    1    2    2    8
+CONECT    2    4
+CONECT    3    4    5    6
+CONECT    4    5
+CONECT    5    7
+CONECT    8    9
+CONECT    9   10   13   13
+CONECT   10   11
+CONECT   11   12   12
+CONECT   12   13
+END

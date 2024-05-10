@@ -1,0 +1,39 @@
+COMPND    MOL_ID: OLDONOAIBOROGK-LXGUWJNJSA-N;
+HETATM    1  C1  UNL     1      48.048   5.726   3.568  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.479   4.409   2.896  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.907   4.504   2.351  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.950   4.944   3.402  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.479   6.264   4.049  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.063   6.176   4.628  1.00  0.00           C  
+HETATM    7  C7  UNL     1      46.651   5.634   4.182  1.00  0.00           C  
+HETATM    8  O1  UNL     1      48.405   3.318   3.808  1.00  0.00           O  
+HETATM    9  O2  UNL     1      51.384   6.714   5.053  1.00  0.00           O  
+HETATM   10  C8  UNL     1      51.305   3.872   4.455  1.00  0.00           C  
+HETATM   11  N1  UNL     1      51.503   2.543   3.878  1.00  0.00           N  
+CONECT    1    2    6    7
+CONECT    2    3    8
+CONECT    3    4
+CONECT    4    5   10
+CONECT    5    6    9
+CONECT   10   11
+END
+COMPND    MOL_ID: OLFRGAVUVINSAI-RNLVFQAGSA-N;
+HETATM    1  C1  UNL     1      47.979   5.845   3.643  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.359   4.473   3.067  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.786   4.452   2.511  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.806   4.906   3.546  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.450   6.283   4.092  1.00  0.00           C  
+HETATM    6  C6  UNL     1      49.034   6.307   4.666  1.00  0.00           C  
+HETATM    7  O1  UNL     1      51.378   6.655   5.105  1.00  0.00           O  
+HETATM    8  O2  UNL     1      50.115   3.138   2.069  1.00  0.00           O  
+HETATM    9  C7  UNL     1      46.585   5.877   4.310  1.00  0.00           C  
+HETATM   10  C8  UNL     1      45.424   5.392   3.437  1.00  0.00           C  
+HETATM   11  N1  UNL     1      44.923   4.090   3.857  1.00  0.00           N  
+CONECT    1    2    6    9
+CONECT    2    3
+CONECT    3    4    8
+CONECT    4    5
+CONECT    5    6    7
+CONECT    9   10
+CONECT   10   11
+END

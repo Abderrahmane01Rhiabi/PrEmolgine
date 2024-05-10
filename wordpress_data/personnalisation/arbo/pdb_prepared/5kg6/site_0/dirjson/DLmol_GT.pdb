@@ -1,0 +1,20 @@
+COMPND    MOL_ID: GTFNCTUOERDSFW-CIUDSAMLSA-N;
+HETATM    1  C1  UNL     1      47.677   5.590   3.703  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.085   4.122   3.404  1.00  0.00           C  
+HETATM    3  C3  UNL     1      49.462   4.054   2.723  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.536   4.748   3.550  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.149   6.188   3.861  1.00  0.00           C  
+HETATM    6  C6  UNL     1      48.783   6.267   4.539  1.00  0.00           C  
+HETATM    7  O1  UNL     1      51.132   6.776   4.707  1.00  0.00           O  
+HETATM    8  N1  UNL     1      47.141   3.413   2.544  1.00  0.00           N  
+HETATM    9  C7  UNL     1      46.332   5.725   4.457  1.00  0.00           C  
+HETATM   10  C8  UNL     1      45.190   6.189   3.592  1.00  0.00           C  
+HETATM   11  C9  UNL     1      43.904   6.123   3.961  1.00  0.00           C  
+CONECT    1    2    6    9
+CONECT    2    3    8
+CONECT    3    4
+CONECT    4    5
+CONECT    5    6    7
+CONECT    9   10
+CONECT   10   11   11
+END

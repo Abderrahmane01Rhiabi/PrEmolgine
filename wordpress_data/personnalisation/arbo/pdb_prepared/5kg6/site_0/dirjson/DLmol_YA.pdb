@@ -1,0 +1,22 @@
+COMPND    MOL_ID: YAGHELYVWXCKPZ-SNVBAGLBSA-N;
+HETATM    1  C1  UNL     1      47.718   5.863   4.001  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.816   6.479   4.624  1.00  0.00           C  
+HETATM    3  C3  UNL     1      50.110   6.248   4.171  1.00  0.00           C  
+HETATM    4  C4  UNL     1      50.346   5.404   3.097  1.00  0.00           C  
+HETATM    5  C5  UNL     1      49.265   4.779   2.473  1.00  0.00           C  
+HETATM    6  C6  UNL     1      47.942   4.985   2.916  1.00  0.00           C  
+HETATM    7  O1  UNL     1      51.132   6.880   4.817  1.00  0.00           O  
+HETATM    8  C7  UNL     1      46.337   6.154   4.523  1.00  0.00           C  
+HETATM    9  C8  UNL     1      46.804   4.280   2.195  1.00  0.00           C  
+HETATM   10  O2  UNL     1      47.285   3.075   1.595  1.00  0.00           O  
+HETATM   11  C9  UNL     1      46.176   5.173   1.118  1.00  0.00           C  
+HETATM   12  C10 UNL     1      44.941   4.538   0.494  1.00  0.00           C  
+CONECT    1    2    2    6    8
+CONECT    2    3
+CONECT    3    4    4    7
+CONECT    4    5
+CONECT    5    6    6
+CONECT    6    9
+CONECT    9   10   11
+CONECT   11   12
+END

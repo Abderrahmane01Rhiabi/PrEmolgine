@@ -1,0 +1,20 @@
+COMPND    MOL_ID: UDVRRZLDIZKXAO-BIIVOSGPSA-N;
+HETATM    1  C1  UNL     1      48.196   5.253   3.189  1.00  0.00           C  
+HETATM    2  C2  UNL     1      48.751   3.815   3.235  1.00  0.00           C  
+HETATM    3  C3  UNL     1      50.246   3.817   2.896  1.00  0.00           C  
+HETATM    4  C4  UNL     1      51.037   4.727   3.837  1.00  0.00           C  
+HETATM    5  C5  UNL     1      50.458   6.141   3.886  1.00  0.00           C  
+HETATM    6  C6  UNL     1      48.955   6.150   4.180  1.00  0.00           C  
+HETATM    7  O1  UNL     1      48.624   3.240   4.530  1.00  0.00           O  
+HETATM    8  O2  UNL     1      51.138   6.904   4.878  1.00  0.00           O  
+HETATM    9  C7  UNL     1      46.662   5.382   3.331  1.00  0.00           C  
+HETATM   10  C8  UNL     1      46.089   5.840   4.673  1.00  0.00           C  
+HETATM   11  N1  UNL     1      46.060   4.753   5.650  1.00  0.00           N  
+CONECT    1    2    6    9
+CONECT    2    3    7
+CONECT    3    4
+CONECT    4    5
+CONECT    5    6    8
+CONECT    9   10
+CONECT   10   11
+END

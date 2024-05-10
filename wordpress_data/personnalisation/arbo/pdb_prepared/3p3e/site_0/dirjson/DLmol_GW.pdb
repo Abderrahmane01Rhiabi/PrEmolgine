@@ -1,0 +1,162 @@
+COMPND    MOL_ID: GWAZBTQGVHGWCM-MELADBBJSA-N;
+HETATM    1  C1  UNL     1     -24.951  10.569  -8.560  1.00  0.00           C  
+HETATM    2  C2  UNL     1     -23.815   9.819  -7.872  1.00  0.00           C  
+HETATM    3  N1  UNL     1     -23.480  10.418  -6.583  1.00  0.00           N  
+HETATM    4  C3  UNL     1     -24.638  10.425  -5.686  1.00  0.00           C  
+HETATM    5  C4  UNL     1     -25.825  11.247  -6.249  1.00  0.00           C  
+HETATM    6  C5  UNL     1     -26.176  10.687  -7.653  1.00  0.00           C  
+HETATM    7  C6  UNL     1     -25.452  12.751  -6.304  1.00  0.00           C  
+HETATM    8  C7  UNL     1     -26.656  13.659  -6.581  1.00  0.00           C  
+HETATM    9  N2  UNL     1     -27.794  13.461  -5.668  1.00  0.00           N  
+HETATM   10  C8  UNL     1     -28.184  12.046  -5.632  1.00  0.00           C  
+HETATM   11  C9  UNL     1     -27.036  11.089  -5.298  1.00  0.00           C  
+HETATM   12  C10 UNL     1     -27.549  13.993  -4.320  1.00  0.00           C  
+HETATM   13  C11 UNL     1     -26.903  16.204  -3.108  1.00  0.00           C  
+HETATM   14  C12 UNL     1     -27.253  15.463  -4.380  1.00  0.00           C  
+HETATM   15  C13 UNL     1     -25.865  16.027  -4.182  1.00  0.00           C  
+HETATM   16  O1  UNL     1     -24.821  15.098  -3.863  1.00  0.00           O  
+HETATM   17  C14 UNL     1     -27.481  17.560  -2.841  1.00  0.00           C  
+HETATM   18  C15 UNL     1     -28.450  17.529  -1.669  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    3
+CONECT    3    4
+CONECT    4    5
+CONECT    5    6    7   11
+CONECT    7    8
+CONECT    8    9
+CONECT    9   10   12
+CONECT   10   11
+CONECT   12   14
+CONECT   13   14   15   17
+CONECT   14   15
+CONECT   15   16
+CONECT   17   18
+END
+COMPND    MOL_ID: GWJXARCREOMPDJ-USZNOCQGSA-N;
+HETATM    1  C1  UNL     1     -26.080  15.485  -4.848  1.00  0.00           C  
+HETATM    2  C2  UNL     1     -27.404  15.423  -4.066  1.00  0.00           C  
+HETATM    3  C3  UNL     1     -27.711  13.975  -3.645  1.00  0.00           C  
+HETATM    4  C4  UNL     1     -27.739  13.011  -4.845  1.00  0.00           C  
+HETATM    5  C5  UNL     1     -26.401  13.061  -5.630  1.00  0.00           C  
+HETATM    6  C6  UNL     1     -26.093  14.519  -6.035  1.00  0.00           C  
+HETATM    7  C7  UNL     1     -28.092  11.607  -4.350  1.00  0.00           C  
+HETATM    8  O1  UNL     1     -24.977  15.154  -4.009  1.00  0.00           O  
+HETATM    9  C8  UNL     1     -27.438  16.333  -2.821  1.00  0.00           C  
+HETATM   10  C9  UNL     1     -26.964  17.753  -3.092  1.00  0.00           C  
+HETATM   11  C10 UNL     1     -26.417  12.173  -6.901  1.00  0.00           C  
+HETATM   12  C11 UNL     1     -25.409  11.024  -6.858  1.00  0.00           C  
+HETATM   13  O2  UNL     1     -24.462  11.273  -5.820  1.00  0.00           O  
+HETATM   14  C12 UNL     1     -23.751  10.097  -5.462  1.00  0.00           C  
+CONECT    1    2    6    8
+CONECT    2    3    9
+CONECT    3    4
+CONECT    4    5    7
+CONECT    5    6   11
+CONECT    9   10
+CONECT   11   12
+CONECT   12   13
+CONECT   13   14
+END
+COMPND    MOL_ID: GWLFXUUYBRACSN-UHFFFAOYSA-N;
+HETATM    1  C1  UNL     1     -26.308  13.924  -5.410  1.00  0.00           C  
+HETATM    2  C2  UNL     1     -27.330  13.616  -4.494  1.00  0.00           C  
+HETATM    3  C3  UNL     1     -27.760  14.622  -3.612  1.00  0.00           C  
+HETATM    4  C4  UNL     1     -27.209  15.912  -3.655  1.00  0.00           C  
+HETATM    5  C5  UNL     1     -26.231  16.207  -4.610  1.00  0.00           C  
+HETATM    6  C6  UNL     1     -25.780  15.217  -5.483  1.00  0.00           C  
+HETATM    7  C7  UNL     1     -27.975  12.261  -4.425  1.00  0.00           C  
+HETATM    8  C8  UNL     1     -27.717  16.984  -2.735  1.00  0.00           C  
+HETATM    9  C9  UNL     1     -25.750  12.923  -6.330  1.00  0.00           C  
+HETATM   10  N1  UNL     1     -26.128  12.736  -7.541  1.00  0.00           N  
+HETATM   11  O1  UNL     1     -24.725  12.204  -5.854  1.00  0.00           O  
+CONECT    1    2    2    6    9
+CONECT    2    3    7
+CONECT    3    4    4
+CONECT    4    5    8
+CONECT    5    6    6
+CONECT    9   10   10   11
+END
+COMPND    MOL_ID: GWUHLXKUAWMCRC-NSHDSACASA-N;
+HETATM    1  C1  UNL     1     -26.714  11.353  -6.648  1.00  0.00           C  
+HETATM    2  C2  UNL     1     -27.157  14.931  -4.246  1.00  0.00           C  
+HETATM    3  C3  UNL     1     -26.404  14.956  -5.427  1.00  0.00           C  
+HETATM    4  C4  UNL     1     -26.260  13.802  -6.205  1.00  0.00           C  
+HETATM    5  C5  UNL     1     -26.878  12.605  -5.821  1.00  0.00           C  
+HETATM    6  C6  UNL     1     -27.638  12.596  -4.649  1.00  0.00           C  
+HETATM    7  F1  UNL     1     -28.242  11.466  -4.253  1.00  0.00           F  
+HETATM    8  C7  UNL     1     -27.785  13.740  -3.869  1.00  0.00           C  
+HETATM    9  C8  UNL     1     -27.336  16.177  -3.431  1.00  0.00           C  
+HETATM   10  N1  UNL     1     -23.706   9.089  -5.826  1.00  0.00           N  
+HETATM   11  C9  UNL     1     -22.849   9.566  -6.921  1.00  0.00           C  
+HETATM   12  C10 UNL     1     -23.641   9.802  -8.231  1.00  0.00           C  
+HETATM   13  N2  UNL     1     -25.067  10.120  -8.034  1.00  0.00           N  
+HETATM   14  C11 UNL     1     -25.245  10.904  -6.792  1.00  0.00           C  
+HETATM   15  C12 UNL     1     -24.760  10.094  -5.548  1.00  0.00           C  
+CONECT    1    5   14
+CONECT    2    3    3    8    9
+CONECT    3    4
+CONECT    4    5    5
+CONECT    5    6
+CONECT    6    7    8    8
+CONECT   10   11   15
+CONECT   11   12
+CONECT   12   13
+CONECT   13   14
+CONECT   14   15
+END
+COMPND    MOL_ID: GWQAQHWKHVYHGC-LEEZEASISA-N;
+HETATM    1  C1  UNL     1     -27.129  12.262  -6.247  1.00  0.00           C  
+HETATM    2  C2  UNL     1     -27.029  11.336  -7.452  1.00  0.00           C  
+HETATM    3  C3  UNL     1     -25.555  11.382  -7.864  1.00  0.00           C  
+HETATM    4  O1  UNL     1     -24.857  12.036  -6.785  1.00  0.00           O  
+HETATM    5  C4  UNL     1     -25.739  12.109  -5.659  1.00  0.00           C  
+HETATM    6  C5  UNL     1     -26.951  12.706 -13.826  1.00  0.00           C  
+HETATM    7  C6  UNL     1     -25.888  11.979 -14.349  1.00  0.00           C  
+HETATM    8  C7  UNL     1     -25.008  11.316 -13.495  1.00  0.00           C  
+HETATM    9  C8  UNL     1     -25.165  11.377 -12.101  1.00  0.00           C  
+HETATM   10  C9  UNL     1     -26.248  12.116 -11.580  1.00  0.00           C  
+HETATM   11  C10 UNL     1     -27.136  12.767 -12.448  1.00  0.00           C  
+HETATM   12  C11 UNL     1     -26.525  12.125 -10.099  1.00  0.00           C  
+HETATM   13  C12 UNL     1     -25.274  12.111  -9.199  1.00  0.00           C  
+HETATM   14  C13 UNL     1     -24.003  11.583  -9.904  1.00  0.00           C  
+HETATM   15  C14 UNL     1     -24.222  10.663 -11.132  1.00  0.00           C  
+HETATM   16  C15 UNL     1     -24.828   9.306 -10.723  1.00  0.00           C  
+HETATM   17  C16 UNL     1     -22.823  10.384 -11.732  1.00  0.00           C  
+HETATM   18  C17 UNL     1     -27.435  13.710  -6.674  1.00  0.00           C  
+HETATM   19  C18 UNL     1     -27.439  14.671  -5.508  1.00  0.00           C  
+HETATM   20  C19 UNL     1     -28.451  14.615  -4.545  1.00  0.00           C  
+HETATM   21  C20 UNL     1     -28.452  15.505  -3.465  1.00  0.00           C  
+HETATM   22  C21 UNL     1     -27.440  16.466  -3.309  1.00  0.00           C  
+HETATM   23  C22 UNL     1     -26.434  16.511  -4.277  1.00  0.00           C  
+HETATM   24  C23 UNL     1     -26.429  15.625  -5.364  1.00  0.00           C  
+HETATM   25  N1  UNL     1     -27.531  17.358  -2.216  1.00  0.00           N  
+HETATM   26  C24 UNL     1     -27.531  18.718  -2.183  1.00  0.00           C  
+HETATM   27  S1  UNL     1     -26.494  19.772  -3.071  1.00  0.00           S  
+HETATM   28  C25 UNL     1     -27.308  21.132  -2.427  1.00  0.00           C  
+HETATM   29  N2  UNL     1     -28.311  20.880  -1.618  1.00  0.00           N  
+HETATM   30  C26 UNL     1     -28.441  19.510  -1.492  1.00  0.00           C  
+CONECT    1    2    5   18
+CONECT    2    3
+CONECT    3    4   13
+CONECT    4    5
+CONECT    6    7    7   11
+CONECT    7    8
+CONECT    8    9    9
+CONECT    9   10   15
+CONECT   10   11   11   12
+CONECT   12   13
+CONECT   13   14
+CONECT   14   15
+CONECT   15   16   17
+CONECT   18   19
+CONECT   19   20   20   24
+CONECT   20   21
+CONECT   21   22   22
+CONECT   22   23   25
+CONECT   23   24   24
+CONECT   25   26
+CONECT   26   27   30   30
+CONECT   27   28
+CONECT   28   29   29
+CONECT   29   30
+END
