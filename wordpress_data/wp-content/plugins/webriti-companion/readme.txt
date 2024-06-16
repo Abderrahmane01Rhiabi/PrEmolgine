@@ -2,8 +2,8 @@
 Contributors: priyanshu.mittal,a.ankit
 Tags: widget, admin, widgets
 Requires at least: 3.3+
-Tested up to: 6.4
-Stable tag: 1.9.7
+Tested up to: 6.5.2
+Stable tag: 1.9.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,10 @@ This plugin creates repeater controls in the customizer settings allowing you to
 
 
 == Changelog ==
+
+= 1.9.8 =
+* Added Demo Import feature with Gutenberg Starter Sites for Appointment theme.
+
 = 1.9.7 =
 * Added Spice Post slider Support for appointment theme.
 

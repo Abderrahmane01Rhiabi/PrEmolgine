@@ -69,6 +69,7 @@ if ( !function_exists( 'webriti_companion_starter_sites_import_files' ) ) {
             //Default Demo
             array(
                 'import_file_name'              => __('Default', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'import_file_url'               => $local_import,
                 'import_widget_file_url'        => $local_import_widget,
                 'import_customizer_file_url'    => $local_import_customizer,
@@ -79,6 +80,7 @@ if ( !function_exists( 'webriti_companion_starter_sites_import_files' ) ) {
             //Elementor Demo's
             array(
                 'import_file_name'              => __('Business', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                'import_file_url'                => $demo_url . 'lite/business/sample-data.xml',
                 'import_widget_file_url'        => $demo_url . 'lite/business/widgets.wie',
                 'import_customizer_file_url'    => $demo_url . 'lite/business/customize-export.dat',
@@ -88,6 +90,7 @@ if ( !function_exists( 'webriti_companion_starter_sites_import_files' ) ) {
 
             array(
                 'import_file_name'              => __('Restaurants', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'import_file_url'               => $demo_url . 'lite/restaurants/sample-data.xml',
                 'import_widget_file_url'        => $demo_url . 'lite/restaurants/widgets.wie',
                 'import_customizer_file_url'    => $demo_url . 'lite/restaurants/customize-export.dat',
@@ -97,33 +100,98 @@ if ( !function_exists( 'webriti_companion_starter_sites_import_files' ) ) {
             
             array(
                 'import_file_name'              => __('Corporate', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'preview_url'                   => 'https://ap-corporate.webriti.com/',
                 'import_preview_image_url'      => $demo_url . 'thumbnail/corporate.jpg',
             ),
           
             array(
                 'import_file_name'              => __('Maintenance', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'preview_url'                   => 'https://ap-maintenance.webriti.com/',
                 'import_preview_image_url'      => $demo_url . 'thumbnail/maintenance.jpg',
             ),
           
             array(
                 'import_file_name'              => __('Education', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'preview_url'                   => 'https://ap-education.webriti.com/',
                 'import_preview_image_url'      => $demo_url . 'thumbnail/education.jpg',
             ),
           
             array(
                 'import_file_name'              => __('Architect', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'preview_url'                   => 'https://ap-architect.webriti.com/',
                 'import_preview_image_url'      => $demo_url . 'thumbnail/architect.jpg',
             ),
             
             array(
                 'import_file_name'              => __('Finance', 'webriti-companion'),
+                'categories'                    => ['Elementor'],
                 'preview_url'                   => 'https://ap-finance.webriti.com/',
                 'import_preview_image_url'      => $demo_url . 'thumbnail/finance.jpg',
-            )
+            ),
+
+            //Gutenberg Demo's
+            array(
+                'import_file_name'              => __('Appointment-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'import_file_url'               => $demo_url . 'lite/gutenberg/appointment/sample-data.xml',
+                'import_widget_file_url'        => $demo_url . 'lite/gutenberg/appointment/widgets.wie',
+                'import_customizer_file_url'    => $demo_url . 'lite/gutenberg/appointment/customize-export.dat',
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-one',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/appointment.jpg',
+            ),
+
+
+            array(
+                'import_file_name'              => __('Growkit-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'import_file_url'               => $demo_url . 'lite/gutenberg/growkit/sample-data.xml',
+                'import_widget_file_url'        => $demo_url . 'lite/gutenberg/growkit/widgets.wie',
+                'import_customizer_file_url'    => $demo_url . 'lite/gutenberg/growkit/customize-export.dat',
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-two',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/growkit.jpg',
+            ),
+
+            array(
+                'import_file_name'              => __('Building-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'import_file_url'               => $demo_url . 'lite/gutenberg/building/sample-data.xml',
+                'import_widget_file_url'        => $demo_url . 'lite/gutenberg/building/widgets.wie',
+                'import_customizer_file_url'    => $demo_url . 'lite/gutenberg/building/customize-export.dat',
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-three',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/building.jpg',
+            ),
+
+            array(
+                'import_file_name'              => __('Appointment-Pro-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-pro-one',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/appointment-pro.jpg',
+            ),
+
+            array(
+                'import_file_name'              => __('Business-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-pro-two',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/business.jpg',
+            ),
+
+            array(
+                'import_file_name'              => __('Corporate-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-pro-three',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/corporate.jpg',
+            ),
+
+            array(
+                'import_file_name'              => __('Digital-Agency-Gutenberg', 'webriti-companion'),
+                'categories'                    => ['Gutenberg'],
+                'preview_url'                   => 'https://demo-appointment.webriti.com/demo-pro-four',
+                'import_preview_image_url'      => $demo_url . 'thumbnail/gutenberg/digital-agency.jpg',
+            ),
         );
     }
 }
@@ -131,14 +199,23 @@ add_filter( 'pt-ocdi/import_files', 'webriti_companion_starter_sites_import_file
 
 /* Define actions that happen after import */
 if ( !function_exists( 'webriti_companion_starter_sites_after_import_mods' ) ) {
-    function webriti_companion_starter_sites_after_import_mods() {
+    function webriti_companion_starter_sites_after_import_mods($selected_import) {
 
-        //Assign the menu
-        $main_menu = get_term_by( 'name', 'Menu 1', 'nav_menu' );
+
+            // List of plugins used by all theme demos.
+            if ( 'Gutenberg' === $selected_import['categories'][0]) {
+                $main_menu = get_term_by( 'name', 'Primary Menu', 'nav_menu' );
+            }else{
+                $main_menu = get_term_by( 'name', 'Menu 1', 'nav_menu' );
+            }   
+       
+        
         set_theme_mod( 'nav_menu_locations', array(
                 'primary' => $main_menu->term_id,
             )
         );
+ 
+
 
         //Asign the static front page and the blog page
         $front_page = get_page_by_title( 'Home' );
@@ -181,7 +258,7 @@ add_action( 'pt-ocdi/after_import', 'webriti_companion_starter_sites_after_impor
 // Custom CSS for OCDI plugin
 function webriti_companion_ocdi_css() { ?>
     <style >
-        .ocdi__gl-item:nth-child(n+4) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about {
+        .ocdi__gl-item:is([data-name="corporate"],[data-name="maintenance"],[data-name="education"],[data-name="architect"],[data-name="finance"],[data-name="appointment-pro-gutenberg"],[data-name="business-gutenberg"],[data-name="corporate-gutenberg"],[data-name="digital-agency-gutenberg"]) .ocdi__gl-item-buttons .button-primary, .ocdi .ocdi__theme-about {
             display: none;
         }
     </style>
@@ -202,24 +279,102 @@ add_filter( 'ocdi/plugin_page_setup', 'webriti_companion_ocdi_plugin_page_setup'
 
 // Register required plugins for the demo's
 function webriti_companion_starter_sites_register_plugins( $plugins ) {
-
-      // List of plugins used by all theme demos.
-      $theme_plugins = [
-          [ // A WordPress.org plugin repository example.
-            'name'     => __('Elementor', 'webriti-companion'), // Name of the plugin.
-            'slug'     => 'elementor', // Plugin slug - the same as on WordPress.org plugin repository.
-            'required' => true,                     // If the plugin is required or not.
-          ],
-          [ // A WordPress.org plugin repository example.
-            'name'     => __('Contact Form 7', 'webriti-companion'), // Name of the plugin.
-            'slug'     => 'contact-form-7', // Plugin slug - the same as on WordPress.org plugin repository.
-            'required' => true,                     // If the plugin is required or not.
-          ],
-      ];
-      return array_merge( $plugins, $theme_plugins );
+    $theme_plugins = [];
+    if(isset($_GET['import'])){
+        $import_id=$_GET['import'];
+        $import_array=webriti_companion_starter_sites_import_files();
+        $impot_file_cat=$import_array[$import_id]['categories'];
+        // List of plugins used by all theme demos.
+        if ( 'Elementor' === $impot_file_cat[0] ) {
+          $theme_plugins = [
+              [ // A WordPress.org plugin repository example.
+                'name'     => __('Elementor', 'webriti-companion'), // Name of the plugin.
+                'slug'     => 'elementor', // Plugin slug - the same as on WordPress.org plugin repository.
+                'required' => true,                     // If the plugin is required or not.
+              ],
+              [ // A WordPress.org plugin repository example.
+                'name'     => __('Contact Form 7', 'webriti-companion'), // Name of the plugin.
+                'slug'     => 'contact-form-7', // Plugin slug - the same as on WordPress.org plugin repository.
+                'required' => true,                     // If the plugin is required or not.
+              ],
+          ];
+        }
+        if( 'Gutenberg' === $impot_file_cat[0] ) {
+            $theme_plugins = [
+                  [ // A WordPress.org plugin repository example.
+                    'name'     => __('Spice Blocks', 'webriti-companion'), // Name of the plugin.
+                    'slug'     => 'spice-blocks', // Plugin slug - the same as on WordPress.org plugin repository.
+                    'required' => true,                     // If the plugin is required or not.
+                  ],
+                  [ // A WordPress.org plugin repository example.
+                    'name'     => __('Contact Form 7', 'webriti-companion'), // Name of the plugin.
+                    'slug'     => 'contact-form-7', // Plugin slug - the same as on WordPress.org plugin repository.
+                    'required' => true,                     // If the plugin is required or not.
+                  ],
+                  [ // A WordPress.org plugin repository example.
+                    'name'     => __('Yoast SEO ', 'webriti-companion'), // Name of the plugin.
+                    'slug'     => 'wordpress-seo', // Plugin slug - the same as on WordPress.org plugin repository.
+                    'required' => true,                     // If the plugin is required or not.
+                  ],
+              ];
+        }
+    }
+    return array_merge( $plugins, $theme_plugins );
 }
 add_filter( 'ocdi/register_plugins', 'webriti_companion_starter_sites_register_plugins' );
 
 
 /* Remove branding */
 add_filter( 'pt-ocdi/disable_pt_branding', '__return_true' );
+
+// Custom CSS for OCDI plugin
+function webriti_companion_ele_css() { ?>
+    <style >
+        .service-section .elementor-inner-column:hover .elementor-widget-container .elementor-icon-wrapper .elementor-icon svg,
+        .service-column .elementor-inner-column:hover .elementor-widget-container .elementor-icon-wrapper .elementor-icon svg {
+            fill: #FFFFFF ;
+        }
+    </style>
+<?php }
+add_action('wp_head', 'webriti_companion_ele_css');
+
+//Repace unicode
+function webriti_companion_decode_unicode_entities($content) {
+    // Decode common Unicode entities back to their HTML equivalents
+    $content = str_replace('u003c', '<', $content);
+    $content = str_replace('u003e', '>', $content);
+    $content = str_replace('u0026', '&', $content);
+    $content = str_replace('u0022', '"', $content);
+    $content = str_replace('u0027', "'", $content);
+
+    // Decode any other Unicode sequences
+    $content = preg_replace_callback('/u([0-9a-fA-F]{4})/', function($matches) {
+        return chr(hexdec($matches[1]));
+    }, $content);
+
+    return $content;
+}
+
+function webriti_companion_after_import_process_content() {
+    // Get all posts
+    $posts = get_posts(array(
+        'numberposts' => -1,
+        'post_type' => 'any',
+        'post_status' => 'any',
+    ));
+
+    // Loop through each post and decode Unicode entities
+    foreach ($posts as $post) {
+        $content = $post->post_content;
+        $decoded_content = webriti_companion_decode_unicode_entities($content);
+
+        // If content was changed, update the post
+        if ($content !== $decoded_content) {
+            wp_update_post(array(
+                'ID' => $post->ID,
+                'post_content' => $decoded_content
+            ));
+        }
+    }
+}
+add_action('pt-ocdi/after_import', 'webriti_companion_after_import_process_content');

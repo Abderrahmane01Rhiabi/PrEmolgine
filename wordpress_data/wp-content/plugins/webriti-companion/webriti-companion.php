@@ -2,7 +2,7 @@
 /*
   Plugin Name: Webriti Companion
   Description: Enhances Webriti themes with extra functionality.
-  Version: 1.9.7
+  Version: 1.9.8
   Author: Webriti
   Author URI: https://www.webriti.com
   Text Domain: webriti-companion

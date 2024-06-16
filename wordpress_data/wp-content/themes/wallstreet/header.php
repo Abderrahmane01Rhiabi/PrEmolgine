@@ -75,7 +75,7 @@
 					<?php
 	        		if(get_option('blogname')!='' && $wallstreet_current_options['display_site_title'] ==true ) {?>
 	        			
-	                    <h2 style="margin: 0px;"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div class="wallstreet_title_head"><?php bloginfo( 'name' ); ?></div>
+	                    <h2 style="margin: 0px;"><a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><div class="wallstreet_title_head">Emolgine (Version Dev 0.4)</div>
 	        			</a></h2>
 
 	            	<?php }

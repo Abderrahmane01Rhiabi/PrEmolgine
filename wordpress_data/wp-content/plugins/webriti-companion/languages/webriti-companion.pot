@@ -12,7 +12,7 @@ msgstr ""
 "<translations@example."
 "com>\n"
 "POT-Creation-Date: "
-"2024-02-13 19:16+0530\n"
+"2024-05-17 16:49+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your "
 "Name <you@example.com>\n"
@@ -47,7 +47,7 @@ msgstr ""
 "_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit "
-"3.4.2\n"
+"3.4.4\n"
 "X-Poedit-"
 "SearchPath-0: .\n"
 
@@ -502,66 +502,112 @@ msgid ""
 "Hide slider from homepage"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:54
-msgid "Select slider type"
+#: inc/appointment/features/feature-slider-section.php:47
+#: inc/busiprof/features/feature-slider-section.php:31
+msgid ""
+"Slider Variation Type"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:57
-msgid "Demo slider"
+#: inc/appointment/features/feature-slider-section.php:51
+msgid ""
+"Banner post slider - "
+"Theme"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:58
-msgid "Category slider"
+#: inc/appointment/features/feature-slider-section.php:52
+msgid ""
+"Banner post slider - "
+"Plugin"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:64
+msgid ""
+"Enter Spice Post Slider "
+"Plugin Shortcode "
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:65
+msgid ""
+"Enter either spice post "
+"slider shortcode or pro "
+"plugin shortcode here"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:74
+msgid ""
+"Click the respective "
+"links to know more about "
+"slider variations."
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:75
+msgid "Learn More"
 msgstr ""
 
 #: inc/appointment/features/feature-slider-section.php:76
+msgid "Check Demo"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:108
+msgid "Select slider type"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:111
+msgid "Demo slider"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:112
+msgid "Category slider"
+msgstr ""
+
+#: inc/appointment/features/feature-slider-section.php:130
 msgid ""
 "Select category for "
 "slider"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:80
+#: inc/appointment/features/feature-slider-section.php:134
 msgid ""
 "Please select category"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:91
-#: inc/appointment/features/feature-slider-section.php:103
+#: inc/appointment/features/feature-slider-section.php:145
+#: inc/appointment/features/feature-slider-section.php:157
 msgid "slide"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:101
+#: inc/appointment/features/feature-slider-section.php:155
 msgid ""
 "Select slider animation"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:103
+#: inc/appointment/features/feature-slider-section.php:157
 msgid "fade"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:121
+#: inc/appointment/features/feature-slider-section.php:175
 msgid "Duration"
 msgstr ""
 
-#: inc/appointment/features/feature-slider-section.php:139
+#: inc/appointment/features/feature-slider-section.php:193
 msgid ""
 "Input number of slides"
 msgstr ""
 
-#: inc/appointment/sections/appointment-slider-section.php:49
+#: inc/appointment/sections/appointment-slider-section.php:56
 msgid "image1"
 msgstr ""
 
-#: inc/appointment/sections/appointment-slider-section.php:51
-#: inc/appointment/sections/appointment-slider-section.php:59
-#: inc/appointment/sections/appointment-slider-section.php:67
+#: inc/appointment/sections/appointment-slider-section.php:58
+#: inc/appointment/sections/appointment-slider-section.php:66
+#: inc/appointment/sections/appointment-slider-section.php:74
 msgid ""
 "Donec Maximus Rhoncus"
 msgstr ""
 
-#: inc/appointment/sections/appointment-slider-section.php:52
-#: inc/appointment/sections/appointment-slider-section.php:60
-#: inc/appointment/sections/appointment-slider-section.php:68
+#: inc/appointment/sections/appointment-slider-section.php:59
+#: inc/appointment/sections/appointment-slider-section.php:67
+#: inc/appointment/sections/appointment-slider-section.php:75
 msgid ""
 "In neque ex, euismod sed "
 "sagittis et, ultrices "
@@ -570,17 +616,17 @@ msgid ""
 "mattis fringilla."
 msgstr ""
 
-#: inc/appointment/sections/appointment-slider-section.php:53
-#: inc/appointment/sections/appointment-slider-section.php:61
-#: inc/appointment/sections/appointment-slider-section.php:69
+#: inc/appointment/sections/appointment-slider-section.php:60
+#: inc/appointment/sections/appointment-slider-section.php:68
+#: inc/appointment/sections/appointment-slider-section.php:76
 msgid "Velit Quis"
 msgstr ""
 
-#: inc/appointment/sections/appointment-slider-section.php:57
+#: inc/appointment/sections/appointment-slider-section.php:64
 msgid "image2"
 msgstr ""
 
-#: inc/appointment/sections/appointment-slider-section.php:65
+#: inc/appointment/sections/appointment-slider-section.php:72
 msgid "image3"
 msgstr ""
 
@@ -588,51 +634,91 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:81
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:82
 msgid "Business"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:90
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:92
 msgid "Restaurants"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:99
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:102
 msgid "Corporate"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:105
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:109
 msgid "Maintenance"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:111
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:116
 msgid "Education"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:117
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:123
 msgid "Architect"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:123
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:130
 msgid "Finance"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:194
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:138
+msgid ""
+"Appointment-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:149
+msgid "Growkit-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:159
+msgid "Building-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:169
+msgid ""
+"Appointment-Pro-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:176
+msgid "Business-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:183
+msgid "Corporate-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:190
+msgid ""
+"Digital-Agency-Gutenberg"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:271
 #: inc/wallstreet/starter-sites/demo-content/setup.php:76
 msgid ""
 "One Click Demo Import"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:195
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:272
 #: inc/wallstreet/starter-sites/demo-content/setup.php:77
 msgid "Starter Sites"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:209
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:291
 msgid "Elementor"
 msgstr ""
 
-#: inc/appointment/webriti-starter-sites/demo-content/setup.php:214
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:296
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:310
 msgid "Contact Form 7"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:305
+msgid "Spice Blocks"
+msgstr ""
+
+#: inc/appointment/webriti-starter-sites/demo-content/setup.php:315
+msgid "Yoast SEO "
 msgstr ""
 
 #: inc/busiprof/customizer.php:66
@@ -905,11 +991,6 @@ msgstr ""
 
 #: inc/busiprof/features/feature-slider-section.php:14
 msgid "Enable slider"
-msgstr ""
-
-#: inc/busiprof/features/feature-slider-section.php:31
-msgid ""
-"Slider Variation Type"
 msgstr ""
 
 #: inc/busiprof/features/feature-slider-section.php:36

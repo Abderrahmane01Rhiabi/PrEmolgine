@@ -39,6 +39,11 @@ if (!function_exists('getenv_docker')) {
 	}
 }
 
+define('NEO4J_HTTP_URL', 'http://127.0.0.1:7474/db/neo4j/tx');
+define('NEO4J_USERNAME', 'neo4j');
+define('NEO4J_PASSWORD', 'rmc2024IAML');
+
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'wordpress') );
