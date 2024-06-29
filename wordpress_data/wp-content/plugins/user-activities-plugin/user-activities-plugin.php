@@ -61,7 +61,33 @@ function get_user_activities() {
     wp_send_json_success($activities);
 }
 
-add_action('wp_enqueue_scripts', 'enqueue_scripts');
+add_action('wp_ajax_delete_user_activity', 'delete_user_activity');
+function delete_user_activity() {
+    if (!is_user_logged_in()) {
+        wp_send_json_error('You must be logged in to perform this action.');
+    }
+
+    $user_id = get_current_user_id();
+    $index = intval($_POST['index']);
+
+    $activities = get_user_meta($user_id, 'user_activities', true);
+
+    if (!is_array($activities) || !isset($activities['requetes'])) {
+        wp_send_json_error('No activities found.');
+    }
+
+    if ($index < 0 || $index >= count($activities['requetes'])) {
+        wp_send_json_error('Invalid activity index.');
+    }
+
+    // Remove the activity at the specified index
+    array_splice($activities['requetes'], $index, 1);
+
+    update_user_meta($user_id, 'user_activities', $activities);
+
+    wp_send_json_success('User activity deleted successfully.');
+}
+/*add_action('wp_enqueue_scripts', 'enqueue_scripts');
 function enqueue_scripts() {
     $upload_dir = wp_upload_dir();
     $script_url = $upload_dir['baseurl'] . '/winp-css-js/96.js';
@@ -73,4 +99,4 @@ function enqueue_scripts() {
     wp_enqueue_script('96.js', $script_url, array('jquery'), '1.0', true);
 
     wp_localize_script('96.js', 'ajax_object', array('ajax_url' => $ajax_url));
-}
+}*/
